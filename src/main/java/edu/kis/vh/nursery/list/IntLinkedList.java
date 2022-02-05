@@ -4,7 +4,7 @@ public class IntLinkedList {
 
     private static final int FIRST_INDEX_OF_EMPTY_LIST = -1;
     private Node last;
-    private int i;
+    private int i; // TO-DO this variable can be removed as it is not used.
 
     public void push(int i) {
         if (last == null)
@@ -20,6 +20,7 @@ public class IntLinkedList {
         return last == null;
     }
 
+    // TO-DO this method should return true or false depending of the context, not always false value.
     public boolean isFull() {
         return false;
     }
