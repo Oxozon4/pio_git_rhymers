@@ -38,4 +38,5 @@ public class IntLinkedList {
         return ret;
     }
 
+    // 1.4 accesory 4 | Podczas wykonywania zadania nie zauwazylem zadnego nieuzywanego settera w repozytorium.
 }
